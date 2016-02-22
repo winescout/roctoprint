@@ -1,24 +1,13 @@
 ## README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+* Ruby version: 2.3.0
+* Rails version: 5.0-beta1
+* Frontend: Polymer 1.0
+* Database: Sqlite
 
-Things you may want to cover:
+* Testing
+- rspec spec
 
-* Ruby version
+This is a port of the most fantastic Octoprint project to Ruby/Rails.  Its a platform to experiment with Web Sockets, and the new ActionCable tools coming out in Rails 5.  This project is far, far from running, or doing anything close to resembling the management of a 3D printer.  
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Contributions are welcome.  Please test, document, and PR your code.  
