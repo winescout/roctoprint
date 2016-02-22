@@ -1,0 +1,8 @@
+%dom-module(id="printer-list")
+  %link(rel="stylesheet" href="printer-list.css")
+  %template
+    %h2 Printer List
+    %template(is='dom-repeat' items="{{printers}}")
+      %h4 {{index}} {{item.manufacturer}} {{ item.serial_number }}
+
+  %script(src="printer-list.js")
